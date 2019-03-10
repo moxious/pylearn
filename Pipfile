@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+geocoder = "*"
+reverse-geocoder = "*"
+altuscli = "*"
+scikit-learn = "*"
+pandas = "*"
+graphviz = "*"
+neo4j = "*"
+neobolt = "*"
+xgboost = "*"
+
+[dev-packages]
