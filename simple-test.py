@@ -3,7 +3,7 @@ import unittest
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        self.assertEqual('foo'.upper(), 'NOT GOING TO WORK')
 
     def test_isupper(self):
         self.assertTrue('FOO'.isupper())
